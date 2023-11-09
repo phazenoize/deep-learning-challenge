@@ -1,12 +1,5 @@
 # deep-learning-challenge
 
-Overview of the analysis:
-
-
-Results: Using bulleted lists and images to support your answers, address the following questions:
-
-Data Preprocessing
-
 What variable(s) are the target(s) for your model?
 
 	The 'IS_SUCCESSFUL' column from application_df is the target variable, this is what we are trying to predict. This shows if the money was used effectively.
@@ -35,8 +28,12 @@ How many neurons, layers, and activation functions did you select for your neura
 
 Were you able to achieve the target model performance?
 
-	With 51 neurons and three layers, the max accuracy held steadfast at 73.3% which is outside the goal of 75%.
-	
+	With 150 neurons and three hidden layers, the max accuracy held steadfast at 73.2% which is outside the goal of 75%.
+
+![NN1](https://github.com/phazenoize/deep-learning-challenge/assets/10499935/e5c95889-9bab-4c1f-9399-aa8c7ceab62f)
+![NN2](https://github.com/phazenoize/deep-learning-challenge/assets/10499935/6fc3f18c-78ed-4008-a5bc-d52fa813366a)
+
+ 
 What steps did you take in your attempts to increase model performance?
 
 	Adding more neurons didn't seem to truly help this model, changing the activation functions and adding more layers didn't seem to make too much of a difference either.
